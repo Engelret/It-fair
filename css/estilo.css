@@ -20,7 +20,12 @@
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-
+.vertical{
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          1px;       
+}
 
 
 .ubicacionPagina{
@@ -66,7 +71,7 @@
 
   body {
     margin: 0;
-    font-size: 28px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -78,7 +83,7 @@
   
   #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
   }
   
   #navbar a {
@@ -106,6 +111,7 @@
   }
   
   .sticky {
+    background-color: rgb(0,0,0);
     position: fixed;
     top: 0;
     width: 100%;
@@ -114,4 +120,3 @@
   .sticky + .content {
     padding-top: 60px;
   }
-  
