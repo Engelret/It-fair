@@ -34,51 +34,56 @@
         <a class="nav-link" id="btnContacto" href="#">Contacto</a>
     </div>
 
-
     <div class="container-fluid">
         <br>
-        <h5> Contacto </h5>
-        <form action="#">
-            <div class="container-fluid">
-                <br>
-                <label for="nombre"> Nombre </label>
-                <br>
-                <input class="input" type="text" id="nombre">
-                <br>
-                <br>
-                <label for="email"> Email</label>
-                <br>
-                <input class="input" type="email" id="email">
-                <br>
-                <br>
-                <label for="nacionalidad"> Nacionalidad </label>
-                <br>
-                <input class="input" type="email" id="email">
-                <br>
-                <br>
-                <label for="mensaje"> Mensaje </label>
-                <br>
-                <textarea class="input" name="mensaje" id="mensaje" cols="40" rows="5"></textarea>
-                <input class="btn btn-primary" type="submit" value="enviar" id="enviar">
-                <hr>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-area">
+                    <form role="form">
+                        <br style="clear:both">
+                        <h3 style=" text-align: center;">Contactanos</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nacionalidad" name="nacionalidad" placeholder="Nacionalidad" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="mensaje" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
+
+                        </div>
+
+                        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
+                    </form>
+                </div>
             </div>
 
-        </form>
-
-        <div class="col-md-8">
-            <h6> Otras formas de contactarse con nosotros: </h6>
-            <br>
-            <img src="img/contacto/logo_celular.png" width="25px" alt="logo_celular"> + 569 1234 5678
-            <br>
-            <br>
-            <img src="img/contacto/logo_celular.png" width="25px" alt="logo_celular"> + 569 8765 4321
-            <br>
-            <br>
-            <img src="img/contacto/email.png" width="40px" alt="email"> inmigrayuda@gmailcom
+            <div class="col-md-6">
+                <br> <br>
+                <h6 style="margin-top: 10px"> Otras formas de contactarse con nosotros: </h6>
+                <br>
+                <img src="img/contacto/logo_celular.png" width="25px" alt="logo_celular"> + 569 1234 5678
+                <br>
+                <br>
+                <img src="img/contacto/logo_celular.png" width="25px" alt="logo_celular"> + 569 8765 4321
+                <br>
+                <br>
+                <img src="img/contacto/email.png" width="40px" alt="email"> inmigrayuda@gmailcom
+            </div>
         </div>
-    </div>
+
 
     </div>
+
+
+
 
 
 
