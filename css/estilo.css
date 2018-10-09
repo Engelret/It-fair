@@ -102,7 +102,7 @@
   }
   
   #navbar a.active {
-    background-color: #4CAF50;
+    background-color: rgb(1, 41, 46);
     color: white;
   }
   
@@ -115,6 +115,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    
   }
   
   .sticky + .content {
