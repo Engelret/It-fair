@@ -1,0 +1,117 @@
+.base {
+    background-color: rgba(192, 191, 191, 0.158)
+}
+
+.nombreLogo{
+    padding-top: 40px;
+}
+
+.centrar {
+    padding-left: 14px;
+        color: white;
+    }
+
+.navbar {
+    width: 100%;
+    position: fixed;
+}
+
+.nav-pills {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.ubicacionPagina{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.input{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(0, 123, 245);
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.blurr{
+    filter: blur(5px);
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-position: center;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.555); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
