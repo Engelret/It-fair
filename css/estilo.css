@@ -122,6 +122,10 @@
     text-align: center;
   }
 
+  .fuenteNoticia{
+    text-align: right;
+  }
+
   #morecsspure-trigger-toggle { cursor: pointer; }
   #morecsspure-element-toggle { display:none; }
   #morecsspure-element-toggle:not(:checked) ~ #morecsspure-toggled-element { display:none; }
