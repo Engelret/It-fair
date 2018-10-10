@@ -52,6 +52,14 @@
     object-position: center;
   }
 
+  .separador{
+    border-top: 5px solid rgba(0, 101, 114, 0.719);
+  }
+
+  .link{
+      color: rgba(0, 123, 139, 0.719);
+  }
+
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.555); /* Black w/opacity/see-through */
@@ -102,7 +110,7 @@
   }
   
   #navbar a.active {
-    background-color: #4CAF50;
+    background-color: rgb(0, 77, 87);
     color: white;
   }
   
@@ -110,3 +118,11 @@
     padding: 16px;
   }
   
+  #morecsspure-trigger-toggle { cursor: pointer; }
+  #morecsspure-element-toggle { display:none; }
+  #morecsspure-element-toggle:not(:checked) ~ #morecsspure-toggled-element { display:none; }
+  #morecsspure-element-toggle:not(:checked) ~ #morecsspure-trigger-toggle .morecsspure-lesslink { display:none; }
+  #morecsspure-element-toggle:checked ~ #morecsspure-abstract { display:none; }
+  #morecsspure-element-toggle:checked ~ #morecsspure-trigger-toggle .morecsspure-morelink { display:none; }
+  #morecsspure .morecsspure-morelink, #morecsspure .morecsspure-lesslink { display: block; cursor: pointer; color:#2196f3; }
+  #morecsspure .morecsspure-morelink:hover, #morecsspure .morecsspure-lesslink:hover { text-decoration:underline; }
